@@ -14,6 +14,8 @@ public class Twit {
 		i.sendKeys("padmavathi");
 		WebElement p = driver.findElement(By.xpath("(//input[@type='password'])[2]"));
 		p.sendKeys("padmavathi");
+		System.out.println("padma");
+		driver.quit();
 }
 
 }
